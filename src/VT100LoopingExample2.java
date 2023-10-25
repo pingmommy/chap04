@@ -19,7 +19,7 @@ public class VT100LoopingExample2 {
 			System.err.printf("%c", ch);
 			
 			System.out.printf("/033[1;41H");
-			System.out.println("/033[0m");
+			System.out.print("/033[0m");
 			System.out.printf("i =[%5d]",i);
 			Thread.sleep(10);
 
